@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Flashcards Interativos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Flashcards de Estudo</h1>
+
+  <div class="card-container">
+    <div class="card" id="flashcard">
+      <div class="front" id="card-front">O que é fotossíntese?</div>
+      <div class="back" id="card-back">É o processo pelo qual plantas produzem energia usando luz solar.</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button onclick="prevCard()">◀️ Anterior</button>
+    <button onclick="flipCard()">🔄 Virar</button>
+    <button onclick="nextCard()">Próximo ▶️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
